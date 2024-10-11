@@ -234,4 +234,4 @@ tail -f /var/log/nginx/access.log
 1. chatGPT
 2. [聊聊關於基本的 nginx reverse proxies and nodejs Express web server](https://medium.com/%E5%89%8D%E7%AB%AF%E5%A3%B9%E5%85%A9%E4%B8%89%E4%BA%8B/%E8%81%8A%E8%81%8A%E9%97%9C%E6%96%BC%E5%9F%BA%E6%9C%AC%E7%9A%84-nginx-reverse-proxies-and-nodejs-express-web-server-2a1c8e7e7de1)
 3. [[教學][Ubuntu 架站] 在 Ubuntu 22.04 安裝 Nginx 網頁伺服器，並架設多個網站（多網域）](https://ui-code.com/archives/667)
-4.[使用 pm2 管理 Node.js 服務](https://ithelp.ithome.com.tw/articles/10220480)
+4. [使用 pm2 管理 Node.js 服務](https://ithelp.ithome.com.tw/articles/10220480)
