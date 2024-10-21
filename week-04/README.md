@@ -1,6 +1,6 @@
 # Week-04 HW
 ## 1. 在 Readme 中提供 instance 的 public IP，我會連線過去檢查，所以要保持主機是一直在啟動中
-- 35.78.172.10
+- [http://54.150.212.180](http://54.150.212.180)
 ## 2. 什麼是 instance type?
 在 AWS 中，Instance Type（實例類型）是用來定義 EC2（Elastic Compute Cloud）實例的硬體配置，包括 CPU、RAM、存儲空間和網絡性能等資源。Instance Type 不同，適用於不同的工作負載和應用場景。
 
