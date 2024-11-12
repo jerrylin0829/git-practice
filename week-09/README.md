@@ -11,20 +11,25 @@ Root Causes:
 
 Resolution:
 1. 輸入 `systemctl status ningx.service` 查看錯誤訊息
+
 ![查看錯誤訊息](https://img.onl/8O8onW)
 
 2. 把 `/etc/nginx/nginx.conf` 多出來的 `;` 刪掉。
+
 ![刪掉';'](https://img.onl/v45EUN)
 
 3. 改好後再輸入一次 `systemctl status ningx.service` 查看錯誤訊息
+
 ![再次查看錯誤訊息](https://img.onl/6eO9ck)
 
 4. 發現 80 port 已經被佔用，因此輸入 `sudo lsof -i :80` 查看
+
 ![查看誰佔用 80 Port](https://img.onl/Lsr1F9)
 
 5. 發現是 `srv` 在佔用，因此輸入 `sudo systemctl stop srv`
 
 6. 然後會變成 Nginx 連不上 80 port，因此查看防火牆
+
 ![查看防火牆](https://img.onl/TgBGbw)
 
 7. 將防火牆規則刪除，輸入 `sudo iptables -D INPUT 1`
