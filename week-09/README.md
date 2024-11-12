@@ -38,6 +38,7 @@ Resolution:
 10. 輸入 `sudo chmod 644 /etc/iptables/rules.v4` 將寫入權限關閉
 11. 輸入 `sudo chmod 644 /var/myweb/index.html` 將權限打開
 12. 輸入 `curl localhost` 就完成了。
+
 ![curl localhost](https://img.onl/KDWZ6C)
 
 ## 心得
